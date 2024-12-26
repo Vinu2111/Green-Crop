@@ -21,8 +21,6 @@ Hibernate ORM - Streamlined database operations with JPQL for efficient query ha
 AJAX/Fetch API - Enables dynamic content loading for a seamless user experience.
 Comprehensive Logging - Provides detailed logging for debugging, monitoring, and maintenance.
 Setup & Installation
-1. Clone the Repository
-bash git clone https://github.com/KusalDemo/green-shadow-backend.git
 
 2. Configure the Database
 Step 1: Set up your MySQL database.
@@ -31,7 +29,7 @@ Create a database for the system. For example sql - CREATE DATABASE greenShadowD
 Step 2: Update the database connection details in the application.properties file properties
 
 MySQL Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/greenShadowDB?createDatabaseIfNotExist=true
+spring.datasource.url=jdbc:mysql://localhost:3306/greenCropDB?createDatabaseIfNotExist=true
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 Hibernate Configuration
