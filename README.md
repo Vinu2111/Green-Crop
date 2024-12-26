@@ -4,9 +4,6 @@ The full API documentation is available via Postman. It includes details on all 
 
 https://documenter.getpostman.com/view/36189309/2sAYBYfVNf
 
-Frontend Repository
-https://github.com/KusalDemo/green-shadow-frontend.git
-
 Description
 This project is developed using Java Spring Boot for the backend, MySQL as the database, and Hibernate for ORM (Object-Relational Mapping). The system includes role-based access control (RBAC) with roles such as ADMINISTRATIVE, MANAGER, and SCIENTIST. It uses JWT-based authentication for secure login and token refresh mechanisms. AJAX (or Fetch API) is employed for dynamic, asynchronous communication between the client and server. Hibernate JPQL is used to facilitate efficient database operations. Proper logging is implemented to ensure maintainability and traceability, adhering to industry best practices.
 
